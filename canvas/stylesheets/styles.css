@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 10px;
+    background: rgb(149, 194, 215);
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    flex: 0 1 auto;
+}
+
+.logo-text {
+    background: white;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    font-size: 37px;
+}
+
+.main-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnail-item {
+    display: inline-block;
+    min-width: 120px;
+    max-width: 120px;
+    border: 1px solid rgb(100%, 100%, 100%, 0.8);
+    border: 1px solid rgba(100%, 100%, 100%, 0.8);
+}
+
+.thumbnail-list {
+    flex: 0 1 auto;
+    order: 2;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.thumbnail-image {
+    display: block;
+    width: 100%;
+}
+
+.thumbnail-title {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 4px 10px;
+
+    background: rgb(96, 125, 139);
+    color: rgb(202, 238, 255);
+
+    font-size: 18px;
+}
+
+.detail-image-container {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-image-frame {
+    position: relative;
+    text-align: center;
+}
+
+.detail-image {
+    width: 90%;
+}
+
+.detail-image-title {
+    position: absolute;
+    bottom: -16px;
+    left: 4px;
+
+    font-family: 'Anton';
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.9) 1px 2px 9px;
+    font-size: 40px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+  
+  .portfolioLink {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .portfolioLink:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+@media all and (min-width: 768px) {
+    .main-content {
+        flex-direction: row;
+        overflow: hidden;
+    }
+
+    .thumbnail-list {
+        flex-direction: column;
+        order: 0;
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .thumbnail-item {
+        max-width: 260px;
+    }
+
+    .thumbnail-item + .thumbnail-item {
+        margin-top: 20px;
+    }
+}

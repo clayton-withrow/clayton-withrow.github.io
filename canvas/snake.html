@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Canvas Studies</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Anton&display=swap">
+        <link rel="stylesheet" href="stylesheets/styles.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <h1 class="logo-text">Canvas Studies</h1>
+        </header>
+        <main class="main-content">
+            <ul class="thumbnail-list">
+                <li class="thumbnail-item">
+                    <a href="index.html">
+                        <img class="thumbnail-image" src="img/breakoutScreenshot.png" alt="BreakOut">
+                        <span class="thumbnail-title">BreakOut</span>
+                    </a>
+                </li>
+                <li class="thumbnail-item">
+                    <a href="maze.html">
+                        <img class="thumbnail-image" src="img/mazeScreenshot.png" alt="Maze">
+                        <span class="thumbnail-title">Maze</span>
+                    </a>
+                </li>
+                <li class="thumbnail-item">
+                    <a href="pong.html">
+                        <img class="thumbnail-image" src="img/pongScreenshot.png" alt="Pong">
+                        <span class="thumbnail-title">Pong</span>
+                    </a>
+                </li>
+                <li class="thumbnail-item">
+                    <a href="snake.html">
+                        <img class="thumbnail-image" src="img/snakeScreenshot.png" alt="Snake">
+                        <span class="thumbnail-title">Snake</span>
+                    </a>
+                </li>
+                <li class="thumbnail-item">
+                    <a href="bird.html">
+                        <img class="thumbnail-image" src="img/birdScreenshot.png" alt="Bird">
+                        <span class="thumbnail-title">Bird</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="detail-image-container">
+                <div class="detail-image-frame">
+                    <canvas class="detail-image" id="snakeCanvas" width="960" height="640"></canvas>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="footer">
+            <a href="../webdesign.html" class="portfolioLink">Return to Portfolio</a>
+        </div>
+
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <script src="scripts/snakeScript.js"></script>
+
+    </body>
+</html>

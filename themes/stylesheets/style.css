@@ -1,0 +1,58 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+h1, h3, p, li, strong {
+    color: white;
+}
+
+.btn {
+    background-color: #F64C72;
+    color: white;
+}
+
+.row > div > img { 
+    width: 100%; 
+    height: 100%; 
+    display: block; 
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .portfolioLink {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .portfolioLink:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }

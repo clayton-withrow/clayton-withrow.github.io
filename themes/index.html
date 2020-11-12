@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Pixel Landscapes</title>
+  </head>
+  <body id="body" style="background-color: #242582">
+      <main role ="main">
+        
+            <div id="jumbotron" style="background-color: #F64C72" class="jumbotron">
+                <div class="container">
+                    <h1 class="display-4">Pixel Landscapes</h1>
+                    <p class="lead">spriteful imagery</p>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <img id="currentImg" src="img/astronaut.png" class="rounded img-fluid border" alt="Pixel Landscape">
+                </div>
+
+                <div class="col-md-4">
+                    <h3>Integer vel sapien ipsum. Fusce.</h3>
+                    <p>Integer sapien turpis, cursus ac euismod eget, commodo a sem. Fusce aliquam eleifend pulvinar. Vivamus vitae mi augue. Suspendisse ut efficitur tortor. Ut porttitor congue enim ac fermentum. Suspendisse aliquet neque quis tellus dignissim molestie. Phasellus feugiat, nisi non ullamcorper egestas, odio massa fermentum sem, vel pulvinar neque purus non urna. Ut quis nisi leo. Nunc aliquam, mauris sit amet vulputate sagittis, tortor massa ultrices enim, porttitor tincidunt magna nisl vel dui.</p>
+                    <h3>Phasellus scelerisque.</h3>
+                    <ul>
+                        <li>Uno</li>
+                        <li>Dos</li>
+                        <li>Tres</li>
+                        <li>Quatro</li>
+                    </ul>
+                </div>
+            </div>
+
+            <br>
+
+            <h3>Click To Change Theme</h3>
+
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <img class="thumbnail img-fluid" src="img/astronautScreenshot.png" alt="Astronaut" onclick="showImage('astronaut.png'), changeColor('background-color: #242582'), changeHeader('background-color: #F64C72');" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="thumbnail img-fluid" src="img/cityScreenshot.png" alt="City" onclick="showImage('city.png'), changeColor('background-color: #19181A'), changeHeader('background-color: #A16E83');" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="thumbnail img-fluid" src="img/forestScreenshot.png" alt="Forest" onclick="showImage('forest.png'), changeColor('background-color: #3500D3'), changeHeader('background-color: #282828');" />
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <img class="thumbnail img-fluid" src="img/spaceScreenshot.png" alt="Space" onclick="showImage('space.png'), changeColor('background-color: #116466'), changeHeader('background-color: #2C3531');" />
+                </div>
+            </div>
+        </div>
+      </main>
+    
+      <div class="footer">
+        <a href="../webdesign.html" class="portfolioLink">Return to Portfolio</a>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <script src="scripts/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
