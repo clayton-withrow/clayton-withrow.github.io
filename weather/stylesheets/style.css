@@ -1,0 +1,27 @@
+.jumbotron {
+    background-image: url("../img/sky.jpg");
+    background-size: cover;
+    width: 100%;
+  }
+
+body {
+    background-color: #25496b;
+}
+
+.hud, .searchHud {
+  background-color: white;
+  border: black solid 5px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+  border: black solid 5px;
+}
+
+h3.capitalize {
+  text-transform: capitalize;
+}
