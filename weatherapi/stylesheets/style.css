@@ -13,6 +13,41 @@ body {
   border: black solid 5px;
 }
 
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.portfolioLink {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.portfolioLink:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.portfolioLink:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.portfolioLink:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* Set the size of the div element that contains the map */
 #map {
   height: 400px;

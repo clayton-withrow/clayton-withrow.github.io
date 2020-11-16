@@ -1,0 +1,73 @@
+.mainHeader {
+    background-color: #66FCf1;
+    padding: 10px;
+}
+
+body {
+    background-color: #1f2833;
+}
+
+.mainViewer {
+    background-color: #c5c6c7;
+    border: solid black 5px;
+}
+
+.detailImage {
+    width: 100%;
+    height: auto;
+}
+
+.thumbRow {
+    background-color: #45a29e;
+    border: solid black 5px;
+}
+
+.thumbImage {
+    width: 150px;
+    height: 100px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .choice:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .portfolioLink {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .portfolioLink:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
