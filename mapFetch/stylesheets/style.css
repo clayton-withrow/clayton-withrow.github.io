@@ -1,0 +1,71 @@
+.jumbotron {
+    background-color: #86c232;
+}
+
+body {
+    background-color: #222629;
+}
+
+.mainDisplay {
+    background-color: #61892f;
+    border: solid black 5px;
+}
+
+.dataDisplay {
+    margin-top: 5px;
+    border: solid black 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    width: 95%;
+}
+
+.flag {
+    width: 100%;
+    border: solid black 1px;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+    height: 700px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+    border: solid black 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  /* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .portfolioLink {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .portfolioLink:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
