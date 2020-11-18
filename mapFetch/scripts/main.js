@@ -48,7 +48,7 @@ function initMap() {
         document.getElementById("lat").value = clickLat.toFixed(5);
         document.getElementById("lon").value = clickLon.toFixed(5);
 
-        fetch(`https://api.geonames.org/countryCodeJSON?lat=${clickLat}&lng=${clickLon}&username=clayw42`)
+        fetch(`https://secure.geonames.org/countryCodeJSON?lat=${clickLat}&lng=${clickLon}&username=clayw42`)
         .then((resp) => resp.json()) // Transform the data into json
         .then(function(data) {
             countryCode = data.countryCode;
